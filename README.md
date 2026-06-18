@@ -1,2 +1,1 @@
-# CSS-week1-HW2-bt
-CSS Week 2
+# week2-css-HW2

@@ -1,0 +1,49 @@
+/* Feladatok */
+
+/* 3. - Írjon egy CSS szabályt a body tag stílusához, hogy módosítsa a betűtípus család és a betűméret tulajdonságait.*/
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 110%;
+}
+
+/* 4. - Írjon egy CSS-szabályt a fejléc címke stílusához a háttérszín tulajdonság módosítására.*/
+header {
+    background: whitesmoke;
+}
+
+/* 5. - Írjon egy CSS-szabályt a nav tag stílusához, hogy módosítsa a háttérszín tulajdonságot.*/
+nav {
+    background: darkblue;
+}
+
+/*6. - Írjon egy CSS-szabályt a main tag stílusához a háttérszín és a betűméret tulajdonság módosításához*/
+main {
+    background: #ccccff;
+    font-size: 90%;
+}
+
+/*7. - Írjon egy CSS-szabályt a lábléc tag stílusához a háttérszín tulajdonság módosításához.*/
+footer {
+    background: #ccffcc;
+}
+
+/*8. - Írjon egy CSS-szabályt a li tag stílusához a display és a width tulajdonságok módosításához.*/
+li{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    height: 3rem;
+    background: yellow;
+    line-height: 3rem;
+}
+/*9. - Írjon egy CSS-szabályt a h1 tag stílusosítására a szöveg igazítása, a betűtípus családja és a szín tulajdonságok módosítására.*/
+h1 {
+    font-family: monospace, sans-serif;
+    text-align: center;
+    color: darkblue;
+}
+
+/*10. - Írjon CSS-szabályt a p tag stílusához a sormagasság tulajdonság módosításához.*/
+p{
+    line-height: 2rem;
+}
