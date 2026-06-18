@@ -15,7 +15,7 @@ nav {
 }
 
 /*5. -  Egy leszálló szelektor segítségével csak a navban lévő képet stilizáljuk úgy, hogy a szélessége körülbelül 10% legyen.
-    MEGJEGYZÉS: a kép NEM a <nav>-ban van, hanem a <header> - ben!!
+    FIGYELEM: a kép NEM a <nav>-ban van, hanem a <header> - ben!!
 */
 header img {
     width: 10%;
@@ -23,6 +23,7 @@ header img {
     top: 20px;
 }
 
+/* Ez csak a kiírás miatt van itt, egyébként semmi hatása nincs, mivel nem a navban van a kép... */
 nav img {
     width: 10%;
 }
@@ -34,7 +35,9 @@ nav ul {
 }
 
 nav a {
+    /* A példában van decoration! */
     /*text-decoration: none;*/
+
 }
 
 nav li {
@@ -80,6 +83,7 @@ main {
 
 }
 
+/* A parks images 100px szélességű */
 .parks-images img {
     width: 100px;
 }
@@ -98,7 +102,8 @@ footer {
     height: 3rem;
     background: yellow;
     line-height: 3rem;
-}*/
+}
+*/
 
 h1 {
     font-family: monospace, sans-serif;
@@ -106,6 +111,3 @@ h1 {
     color: darkblue;
 }
 
-p {
-    /*line-height: 2rem;*/
-}
